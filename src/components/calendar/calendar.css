@@ -1,0 +1,105 @@
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+
+}
+
+.word {
+  font-weight: bold;
+}
+
+.calendarApp {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.myForm {
+  width: 100%;
+  background-color: #dfe6e9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formField {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.myList {
+  list-style: none;
+  margin-top: 10px;
+  height: 50px;
+  /* border: 1px solid red; */
+}
+
+.myList .myButton {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid #a3acad;
+  margin: 3px 5px;
+}
+
+.myButtonRemove {
+  font-weight: bold;
+  width: auto;
+  background-color: #c80f0f;
+  color: white;
+  padding: 10px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 5px;
+  float: right;
+  transition: background 0.5s;
+}
+
+.myButtonRemove:hover {
+  background: #9c0b0b;
+}
+
+.myButtonEdit {
+  font-weight: bold;
+  width: auto;
+  background-color: #1eb0ca;
+  color: white;
+  padding: 10px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 5px;
+  float: right;
+  transition: background 0.5s;
+}
+
+.myButtonEdit:hover {
+  background: #1994aa;
+}
+
+.myButton {
+  width: 100%;
+  background-color: #00b894;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.5s;
+}
+
+.myButton:hover {
+  background: #009e7eef;
+}
